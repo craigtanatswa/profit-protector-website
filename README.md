@@ -12,6 +12,7 @@ This repository contains the public-facing landing site for the Profit Protector
 | --- | --- |
 | `/` | Landing page with features, benefits, app preview, and download CTAs |
 | `/privacy` | Privacy policy for the Profit Protector mobile application |
+| `/delete-account` | Account deletion instructions (Google Play Data safety URL) |
 
 ## Features Highlighted
 

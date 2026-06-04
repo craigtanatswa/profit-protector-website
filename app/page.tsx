@@ -516,6 +516,9 @@ export default function LandingPage() {
               <Link href="/privacy" className="transition-colors hover:text-foreground">
                 Privacy Policy
               </Link>
+              <Link href="/delete-account" className="transition-colors hover:text-foreground">
+                Delete Account
+              </Link>
               <Link
                 href="mailto:support@profitprotector.app"
                 className="transition-colors hover:text-foreground"

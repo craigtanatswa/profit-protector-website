@@ -130,7 +130,13 @@ export default function PrivacyPage() {
             <ul className="mb-4 list-disc space-y-2 pl-6 text-muted-foreground">
               <li>Access and receive a copy of your personal data</li>
               <li>Request correction of inaccurate data</li>
-              <li>Request deletion of your data</li>
+              <li>
+                Request deletion of your data — see our{" "}
+                <Link href="/delete-account" className="text-primary hover:underline">
+                  account deletion page
+                </Link>{" "}
+                for step-by-step instructions
+              </li>
               <li>Object to processing of your data</li>
               <li>Request restriction of processing</li>
               <li>Data portability</li>
