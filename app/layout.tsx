@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   description: 'Profit Protector is a mobile business management app built for small shops and SMEs. Track sales, inventory, customers, and profits in real-time. Download on Google Play.',
   icons: {
     icon: [
-      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-48.png', sizes: '48x48', type: 'image/png' },
-      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/favicon-46.png', sizes: '46x46', type: 'image/png' },
+      { url: '/favicon-70.png', sizes: '70x70', type: 'image/png' },
+      { url: '/icon-276.png', sizes: '276x276', type: 'image/png' },
     ],
     apple: '/apple-icon.png',
   },
