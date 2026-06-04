@@ -84,8 +84,8 @@ export default function DeleteAccountPage() {
             <ul className="mb-4 list-disc space-y-2 pl-6 text-muted-foreground">
               <li>
                 Email:{" "}
-                <a href="mailto:cmudirira@gmail.com?subject=Account%20deletion%20request" className="text-primary hover:underline">
-                  cmudirira@gmail.com
+                <a href="mailto:profitprotector.app@gmail.com?subject=Account%20deletion%20request" className="text-primary hover:underline">
+                  profitprotector.app@gmail.com
                 </a>
               </li>
               <li>Subject line: <strong className="text-foreground">Account deletion request</strong></li>
