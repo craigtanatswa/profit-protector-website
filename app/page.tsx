@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { ParentCompanyCredit } from "@/components/parent-company-credit"
 import {
   TrendingUp,
   Package,
@@ -529,6 +530,7 @@ export default function LandingPage() {
           </div>
           <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; {new Date().getFullYear()} Profit Protector. All rights reserved.</p>
+            <ParentCompanyCredit />
           </div>
         </div>
       </footer>

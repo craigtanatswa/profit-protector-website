@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ParentCompanyCredit } from "@/components/parent-company-credit"
 
 export const metadata = {
   title: "Delete your Profit Protector account",
@@ -175,6 +176,7 @@ export default function DeleteAccountPage() {
               Privacy Policy
             </Link>
           </p>
+          <ParentCompanyCredit />
         </div>
       </footer>
     </div>

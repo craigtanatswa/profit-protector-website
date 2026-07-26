@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ParentCompanyCredit } from "@/components/parent-company-credit"
 
 export const metadata = {
   title: "Privacy Policy - Profit Protector",
@@ -186,6 +187,7 @@ export default function PrivacyPage() {
       <footer className="border-t border-border bg-background py-8">
         <div className="mx-auto max-w-4xl px-4 text-center text-sm text-muted-foreground sm:px-6">
           <p>&copy; {new Date().getFullYear()} Profit Protector. All rights reserved.</p>
+          <ParentCompanyCredit />
         </div>
       </footer>
     </div>
