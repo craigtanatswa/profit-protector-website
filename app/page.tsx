@@ -24,6 +24,9 @@ import {
 } from "lucide-react"
 import { useState } from "react"
 
+const GOOGLE_PLAY_URL =
+  "https://play.google.com/store/apps/details?id=com.craigtanatswa.profitprotector&pcampaignid=web_share"
+
 // Scroll animation hook
 function useScrollAnimation() {
   useEffect(() => {
@@ -152,7 +155,7 @@ export default function LandingPage() {
               App Preview
             </Link>
             <Link
-              href="https://play.google.com/store/apps/details?id=com.profitprotector"
+              href={GOOGLE_PLAY_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -198,7 +201,7 @@ export default function LandingPage() {
                 App Preview
               </Link>
               <Link
-                href="https://play.google.com/store/apps/details?id=com.profitprotector"
+                href={GOOGLE_PLAY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -230,7 +233,7 @@ export default function LandingPage() {
               </p>
               <div className="flex flex-col gap-4 sm:flex-row">
                 <Link
-                  href="https://play.google.com/store/apps/details?id=com.profitprotector"
+                  href={GOOGLE_PLAY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -455,7 +458,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <Link
-                  href="https://play.google.com/store/apps/details?id=com.profitprotector"
+                  href={GOOGLE_PLAY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
@@ -481,7 +484,7 @@ export default function LandingPage() {
             Download Profit Protector today and see the difference clarity makes.
           </p>
           <Link
-            href="https://play.google.com/store/apps/details?id=com.profitprotector"
+            href={GOOGLE_PLAY_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="scroll-animate scale-in delay-200 inline-block"
